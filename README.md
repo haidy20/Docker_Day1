@@ -89,15 +89,18 @@ vi index.html
  11 </html>
  12 
 ~          
-
 ```
 #### 2. Write Dockerfile and Copy the HTML file to the Docker Image
 ```bash
+vi Dockerfile
 ```
 #### 3. Run Container with New Image
 ```bash
+docker build -t custom-nginx .
+
 ```
 
 #### 4. Test the Container, open your browser and navigate to http://localhost:8088 to check if everything is okay
 ```bash
+docker run -d -p 8080:80 custom-nginx
 ```
