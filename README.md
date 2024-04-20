@@ -1,6 +1,7 @@
 # ITI - Docker Lab 🐋
 
 ## Task 1: Working with Docker Hello-world Image
+docker pull hello-world
 ### Objective
 Learn how to run a container using the hello-world image and manage containers and images.
 
