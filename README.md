@@ -73,6 +73,23 @@ Create a custom Docker image using Nginx and a local HTML file.
 ### Steps
 #### 1. Create a Local HTML File
 ```bash
+touch index.html
+vi index.html
+<!DOCTYPE html>                                                               
+  1 <html lang="en">                                                              
+  2 <head>                                                                        
+  3     <meta charset="UTF-8">
+  4     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  5     <title>Haidy Website</title>
+  6 </head>
+  7 <body>
+  8     <h1>Welcome to My Website</h1>
+  9     <p>I'm Haidy Elhamady ITI Student </p>
+ 10 </body>
+ 11 </html>
+ 12 
+~          
+
 ```
 #### 2. Write Dockerfile and Copy the HTML file to the Docker Image
 ```bash
