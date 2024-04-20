@@ -13,15 +13,19 @@ docker run hello-world
 ```
 #### 2. Check Container Status and Explain
 ```bash
+docker ps -a
 ```
 #### 3. Start the Stopped Container
 ```bash
+docker start charming_banzai
 ```
 #### 4. Remove the Container
 ```bash
+docker rm charming_banzai
 ```
 #### 5. Remove the Image
 ```bash
+docker rmi -f hello-world
 ```
 ---
 
