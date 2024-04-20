@@ -36,24 +36,33 @@ Run an Ubuntu container in interactive mode, create a file inside it, and manage
 ### Steps
 #### 1. Run Ubuntu Container in Interactive Mode
 ```bash
+docker pull ubuntu
+docker run -it ubuntu
 ```
 #### 2. Create a File inside the Container
 ```bash
+touch file-one 
 ```
 #### 3. Stop and Remove the Container
 ```bash
+docker stop beautiful_colden
+docker rm beautiful_colden
 ```
 #### 4. Check File Status
 ```bash
+already removed it(not found)
 ```
 #### 5. What happened to hello-docker file?
 ```bash
+already removed it with the container
 ```
 #### 6. Remove All Stopped Containers
 ```bash
+docker container prune
 ```
 #### 7. Bonus: Remove All Containers in One Command
 ```bash
+docker container prune -f
 ```
 
 ---
